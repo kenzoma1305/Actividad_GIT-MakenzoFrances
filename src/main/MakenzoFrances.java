@@ -10,13 +10,14 @@ public class MakenzoFrances {
 		int[] prodArray = {6, 8, 20, 23, 12};
 		
 		// User 1 fer la suma dels elements de sumArray
-		int totalSuma = 0;
-
-		for (int i = 0; i < sumArray.length; i++) { 
-			totalSuma += sumArray[i]; 
-		}
-		
-		System.out.println("La suma de tots els elements es: " + totalSuma);
+			//Creamos variable para almacenar el total de la suma
+				int totalSuma = 0;
+			//Creamos un bucle para recorrer los elementos del sumArray
+				for (int i = 0; i < sumArray.length; i++) { //i empieza en 0 y se incrementa hasta llegar al tamaño del array (sumArray.length).
+					totalSuma += sumArray[i]; //En cada iteración, añade el valor del elemento actual de sumArray a totalSuma.
+				}
+			//Imprimimos el resultado con un mensaje
+				System.out.println("La suma de tots els elements es: " + totalSuma);
 		
 		
 		// User 2 fer la resta dels elements de subArray
