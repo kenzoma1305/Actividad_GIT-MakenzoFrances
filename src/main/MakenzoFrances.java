@@ -13,7 +13,17 @@ public class MakenzoFrances {
         Scanner s = new Scanner(System.in); // Creem Scanner per a poder fer el moment de espera/resposta del usuari per mostrar el resultat de la Resta
         
         // User 1 fer la suma dels elements de sumArray
-     			
+
+        // Creamos variable para almacenar el total de la suma
+				int totalSuma = 0;
+			//Creamos un bucle para recorrer los elementos del sumArray
+					for (int i = 0; i < sumArray.length; i++) { //i empieza en 0 y se incrementa hasta llegar al tamaño del array (sumArray.length).
+						totalSuma += sumArray[i]; // En cada iteración, añade el valor del elemento actual de sumArray a totalSuma.
+					}
+		
+		
+			//Imprime el resultado de la suma por pantalla
+				System.out.println("La suma de tots els elements es: " + totalSuma);
      		
         // User 2 fer la resta dels elements de subArray
         
