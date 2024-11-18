@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 public class MakenzoFrances {
 
+<<<<<<< HEAD
     public static void main(String[] args) {
         // Arrays con los valores para las operaciones
         int[] sumArray = {4, 36, 4, 23, 867};
