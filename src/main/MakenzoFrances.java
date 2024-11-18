@@ -13,10 +13,10 @@ public class MakenzoFrances {
         int TotalRestaArray = subArray[0];  // Fem INT per al resultat de la resta quedi allí guardat
         Scanner s = new Scanner(System.in); // Creem Scanner per a poder fer el moment de espera/resposta del usuari per mostrar el resultat de la Resta
         
-     // User 1 fer la suma dels elements de sumArray
+        // User 1 fer la suma dels elements de sumArray
      			
      		
-     // User 2 fer la resta dels elements de subArray
+        // User 2 fer la resta dels elements de subArray
         
         //Ensenyo els numeros que es restaran
         System.out.println("Tenim estos numeros, que segidament s'aniran restant en ordre"
